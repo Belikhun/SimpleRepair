@@ -1,0 +1,36 @@
+name: SimpleRepair
+main: com.github.belikhun.simplerepair.SimpleRepair
+author: Belikhun
+version: "1.0"
+api-version: "1.20"
+
+commands:
+  simplerepair:
+    description: "Simple Repair"
+    usage: /repair
+    permission: simplerepair
+    permission-message: You don't have permission simplerepair
+
+  repair:
+    description: "Repair holding tool"
+    usage: /repair
+    permission: simplerepair.repair
+    permission-message: You don't have permission simplerepair.repair
+    aliases:
+      - "fix"
+
+  repairc:
+    description: "Check repairing cost"
+    usage: /repair
+    permission: simplerepair.repair
+    permission-message: You don't have permission simplerepair.repair
+    aliases:
+      - "fixc"
+
+permissions:
+  simplerepair.repair:
+    description: "Permission to repair item holding on hand"
+    default: "op"
+  simplerepair.reload:
+    description: "Permission to reload the plugin configuration"
+    default: "op"
