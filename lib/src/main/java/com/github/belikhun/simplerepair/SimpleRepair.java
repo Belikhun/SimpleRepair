@@ -159,7 +159,7 @@ public class SimpleRepair extends JavaPlugin {
 
         // Check if the player has enough money
         if (!withdrawMoney(player, repairCost)) {
-            player.sendMessage(getMessage("messages.not-enough-money"));
+            player.sendMessage(getMessage("messages.not-enough-money").replace("%cost%", String.valueOf(repairCost)));
             return;
         }
 

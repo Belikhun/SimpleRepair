@@ -13,7 +13,7 @@ messages:
   must-hold-item: "&cYou must hold an item in your hand to use this command."
   not-repairable: "&cThis item cannot be repaired."
   not-damaged: "&cThe item is not damaged and doesn't need repairing."
-  not-enough-money: "&cYou don't have enough money to repair this item."
+  not-enough-money: "&cYou don't have enough money to repair this item. &7(%cost%)"
   item-repaired: "&aItem repaired for &e$%cost%&a."
   repair-cost: "&aRepair cost: &e$%cost%."
   simplerepair-info: "&fSimpleRepair by &#d1ffcfBelikhun"
